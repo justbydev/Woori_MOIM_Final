@@ -1,18 +1,13 @@
 package com.woori.moim.api;
 
-import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
-import com.woori.moim.HomeActivity;
-import com.woori.moim.HomeDetail;
 import com.woori.moim.R;
-import com.woori.moim.SendActivity;
 import com.woori.moim.api.interfaces.MainActivityView;
 import com.woori.moim.api.model.Body;
 import com.woori.moim.api.request.DataRequest;

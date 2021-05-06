@@ -1,6 +1,6 @@
 package com.woori.moim.Network;
 
-import com.woori.moim.Model;
+import com.woori.moim.FCM.Model;
 
 import okhttp3.ResponseBody;
 import retrofit2.Call;

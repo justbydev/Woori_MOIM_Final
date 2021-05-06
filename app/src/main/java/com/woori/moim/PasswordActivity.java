@@ -11,6 +11,7 @@ import android.widget.ImageView;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.bumptech.glide.Glide;
+import com.woori.moim.Send.SendSuccessActivity;
 
 public class PasswordActivity extends AppCompatActivity {
     ImageView button;

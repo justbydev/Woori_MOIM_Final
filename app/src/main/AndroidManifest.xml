@@ -11,7 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Moim">
-        <activity android:name=".HomeActivity"
+        <activity android:name=".Home.Splash"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,91 +20,94 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".HomeDetail"
+            android:name=".Home.HomeDetail"
             android:screenOrientation="portrait" >
-                        <intent-filter>
-                            <action android:name="android.intent.action.MAIN" />
-
-                            <category android:name="android.intent.category.LAUNCHER" />
-                        </intent-filter>
         </activity>
         <activity
-            android:name=".PaylistActivity"
+            android:name=".PayList.PaylistActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".CardRegistration"
+            android:name=".Card.CardRegistration"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Newsplash"
+            android:name=".Home.Newsplash"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".AnalysisActivity"
+            android:name=".Analysis.AnalysisActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".getfromfirebase"
+            android:name=".Testcode.getfromfirebase"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".CardPassword"
+            android:name=".Card.CardPassword"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".CardSelect"
+            android:name=".Card.CardSelect"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".MoimFinish"
+            android:name=".MakeMoim.MoimFinish"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".MoimRequest"
+            android:name=".MakeMoim.MoimRequest"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Select_CategoryActivity"
+            android:name=".PayProcess.Select_CategoryActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Send_MoneyActivity"
+            android:name=".Send.Send_MoneyActivity"
             android:screenOrientation="portrait" >
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
-
-<!--                <category android:name="android.intent.category.LAUNCHER" />-->
-<!--            </intent-filter>-->
         </activity>
         <activity
-            android:name=".Payment_CompleteActivity"
+            android:name=".PayProcess.Payment_CompleteActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Testcode.MainActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".PaymentActivity"
+            android:name=".PayProcess.PaymentActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Moim_pepole"
+            android:name=".MakeMoim.Moim_pepole"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".MoimName"
+            android:name=".MakeMoim.MoimName"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Select_MemberActivity"
+            android:name=".PayProcess.Select_MemberActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".MainActivity2"
+            android:name=".Testcode.MainActivity2"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Splash"
+            android:name=".Home.HomeActivity"
             android:screenOrientation="portrait">
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
-
-<!--                <category android:name="android.intent.category.LAUNCHER" />-->
-<!--            </intent-filter>-->
         </activity>
-        <activity android:name=".Recommendation"></activity>
-        <activity android:name=".SendSuccessActivity" />
-        <activity android:name=".PasswordActivity" />
-        <activity android:name=".SendActivity" />
-        <activity android:name=".api.ApiActivity"/>
-        <activity android:name=".api.AccntActivity"/>
+        <activity
+            android:name=".Recommend.Recommendation"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Send.SendSuccessActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".PasswordActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Send.SendActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".api.ApiActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".api.AccntActivity"
+            android:screenOrientation="portrait">
+        </activity>
         <service
-            android:name=".FirebaseMessaging"
+            android:name=".FCM.FirebaseMessaging"
             android:exported="false">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
